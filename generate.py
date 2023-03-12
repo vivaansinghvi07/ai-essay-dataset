@@ -23,7 +23,7 @@ def genResponse():
     return response.choices[0].text.replace("\n", " ")
 
 # open a file and write responses to it
-with open("datasets/ai-essays.txt", "a") as f:
+with open("ai-essays.txt", "a") as f:
 
     # write a response to the file
     while True:
